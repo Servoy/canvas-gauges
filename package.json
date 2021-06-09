@@ -1,6 +1,6 @@
 {
-  "name": "canvas-gauges",
-  "version": "2.1.7",
+  "name": "@servoy/canvas-gauges",
+  "version": "2.1.8",
   "description": "Minimalist HTML5 Canvas Gauges",
   "main": "gauge.min.js",
   "directories": {
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Mikhus/canvas-gauges.git"
+    "url": "https://github.com/Servoy/canvas-gauges.git"
   },
   "keywords": [
     "gauge",
@@ -92,7 +92,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Mikhus/canvas-gauges/issues"
+    "url": "https://github.com/Servoy/canvas-gauges/issues"
   },
   "devDependencies": {
     "babel": "^6.5.2",
