@@ -182,7 +182,7 @@ gulp.task('build:prod', done => {
     rimraf('dist', () => {
         Promise.all(types.map(type => {
             return new Promise(resolve => {
-                es5transpile(type, false, resolve)
+                es5transpile(type, true, resolve)
                     .pipe(gulp.dest('dist/' + type))
                     .on('end', () => {
                         let pkg = JSON.parse(fs.readFileSync('./package.json'));
